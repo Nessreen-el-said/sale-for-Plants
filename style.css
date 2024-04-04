@@ -1,0 +1,281 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 20px;
+}
+
+/* navbar */
+.navbar {
+    background-color: aliceblue;
+    color: black;
+    overflow: auto;
+}
+
+.navbar h3 {
+    padding: 20px;
+    float: left;
+
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    margin-right: 60px;
+}
+
+.navbar ul {
+    list-style: none;
+    float: right;
+}
+
+.navbar ul li {
+    display: inline-block;
+}
+
+.navbar ul li a {
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+.navbar p {
+    margin-left: 60px;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    border-bottom-style: solid;
+}
+
+/* starting frist home */
+
+.one span {
+    color: rgb(36, 196, 36);
+}
+
+.one p {
+    color: rgb(58, 56, 56);
+}
+
+.one button {
+    background-color: rgb(82, 203, 82);
+    color: whitesmoke;
+    border-radius: 60px;
+    padding: 8px;
+    width: 150px;
+    border-color: transparent;
+
+}
+
+.frist {
+    background-image: url( https://i.pinimg.com/564x/07/6a/3b/076a3bc8f783906f68afb0987070494b.jpg);
+    height: 380px;
+    background-position: right bottom, left top;
+    background-size: 100%;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+
+.one h1 {
+    padding-bottom: 20px;
+}
+
+.one p {
+    padding-bottom: 20px;
+}
+
+/* second home */
+.sec2 {
+    display: inline-block;
+    margin: 20px;
+    padding: 40px;
+}
+
+.sec2 i {
+    color: rgb(62, 216, 62);
+
+}
+
+.sec2 span {
+    font-weight: bold;
+}
+
+.sec2 pre {
+    color: rgb(145, 142, 142);
+}
+
+/* third home */
+.thr3 pre {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.thr3 a {
+    text-decoration: none;
+    color: black;
+}
+
+.thr3 a u {
+    text-decoration-color: green;
+}
+
+.thr3 {
+    background-image: url(https://i.pinimg.com/564x/d3/91/ff/d391ffff2264ff4dbd7e7374d3cb1a1c.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding: 20px;
+    width: 300px;
+    margin-left: 150px;
+    background-position: right top, center bottom;
+    justify-content: center;
+    
+}
+/* third 4 home */
+.thr4 p {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 10px 0 10px 0;
+}
+.thr4 a {
+    text-decoration: none;
+    color: black;
+    padding: 5px 0 10px 0;
+}
+.thr4 a u {
+    text-decoration-color: green;
+}
+.thr4 .pragraph {
+    padding-bottom: 30px;
+}
+
+.thr4 {
+    background-image: url(https://i.pinimg.com/564x/bc/9e/21/bc9e215aeb37386f12e8feb46c5d0375.jpg    );
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding:20px;
+    width: 300px;
+    margin-right: 150px;
+    background-position: right top, center bottom;
+    margin-left: 700px;
+    margin-top: -250PX;
+    justify-content: center;
+}
+/* center */
+.our{
+    text-align: center;
+}
+.p1 u {
+    color: green;
+    font-weight: bold;
+}
+.p1{
+    margin-left: 200px;
+}
+/* end */
+.photo1 {
+    background-image: url(https://i.pinimg.com/originals/d4/cb/74/d4cb748db1db3e36cbe8b292ee13db06.jpg);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding:20px;
+    width: 300px;
+    margin-left:50px;
+    margin-top: 50PX;
+}
+.photo2{
+    background-image: url( https://cdn.apartmenttherapy.info/image/upload/f_auto,q_auto:eco,w_730/at/Aloe-Vera_Grant_pale-grey-4_1500x.progressive);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding:20px;
+    width: 300px;
+    margin-left:350px;
+    margin-top: -250PX;
+}
+.photo3{
+    background-image: url( https://i.pinimg.com/564x/f0/03/c8/f003c8d695d8c9116dbe6c1ef73d0442.jpg );
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding:20px;
+    width: 300px;
+    margin-left:650px;
+    margin-top: -200PX;
+}
+.photo4{
+    background-image: url(https://s1.r29static.com/bin/entry/ed3/x,80/2191670/image.jpg );
+    background-size: 60%;
+    background-repeat: no-repeat;
+    height: 200px;
+    padding:20px;
+    width: 300px;
+    margin-left:950px;
+    margin-top: -200PX;
+}
+/* media quires */
+@media (max-width:600px) {
+.navbar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+div .thr3 p{
+    padding: 15px;
+    margin-top: -20px;
+    margin-left: -10px;
+}   
+div .thr4 p {
+    padding: -10x;
+    margin-top:-20px;
+    margin-left: -700px;
+    margin-bottom: 90px;
+    margin: 10px;
+}  
+div .thr4  {
+    padding: -10x;
+    margin-top:-15px;
+    margin: 10px;
+    margin-left: 150px;
+}   
+.photo1{
+    margin-left: 50px;
+}
+.photo2{
+    margin-left: 350px;
+}
+.photo3{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.photo4{
+    margin-left: 350px;
+    margin-top: -200px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
